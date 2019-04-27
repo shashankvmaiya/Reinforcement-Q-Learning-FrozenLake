@@ -1,4 +1,4 @@
-# Reinforcement Learning via Q-learning to play Frozen Lake
+# Training an Agent to play Frozen Lake using Reinforcement Learning (Q-learning)
 
 In this project, we train an agent to play Frozen Lake game. The game consists of a rectangular grid wherein some tiles of the grid are walkable, and others lead to the agent falling into the water. Additionally, the movement direction of the agent is uncertain and only partially depends on the chosen direction. The agent is rewarded for finding a walkable path to a goal tile. 
 
@@ -8,5 +8,5 @@ We consider 3 algorithms to operate the agent
 * **Q-Learning approach of Reinforcement Learning**: The agent is trained using Q-learning approach where a q_table is trained to maximize the reward in taking a particular action. The agent which performs action as per the q_table achieved using this process achieves a success rate of 75%!!
 
 Below figure shows how the success rate improves as we train q_table over several agent attempts 
-<img height=400 src="./Images/q_table_training.png"/>
+<img height=450 src="./Images/q_table_training.png"/>
 
